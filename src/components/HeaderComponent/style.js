@@ -10,7 +10,6 @@ export const HeaderText = styled.span`
   font-size: 18px;
   color: #fff;
   font-weight: bold;
-  line-height: 32px;
 `;
 
 export const WrapperHeaderAccount = styled.div`

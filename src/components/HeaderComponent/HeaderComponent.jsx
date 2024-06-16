@@ -12,7 +12,7 @@ const HeaderComponent = () => {
   return (
     <div>
       <WrapperHeader>
-        <Col span={6}>
+        <Col span={6} style={{ alignItems: "center", display: "flex" }}>
           <HeaderText>MERN ECOMMERCE</HeaderText>
         </Col>
         <Col span={12}>

@@ -5,6 +5,7 @@ import SliderComponent from "../../components/SliderComponent/SliderComponent";
 import slider1 from "../../assets/images/slider1.jpg";
 import slider2 from "../../assets/images/slider2.png";
 import slider3 from "../../assets/images/slider3.jpg";
+import CardComponent from "../../components/CardComponent/CardComponent";
 
 const HomePage = () => {
   const arr = ["TV", "Tu lanh", "Lap top"];
@@ -23,6 +24,9 @@ const HomePage = () => {
         style={{ backgroundColor: "#efefef", padding: "0 120px" }}
       >
         <SliderComponent arrImages={[slider1, slider2, slider3]} />
+        <div style={{ marginTop: "20px" }}>
+          <CardComponent />
+        </div>
       </div>
     </>
   );
