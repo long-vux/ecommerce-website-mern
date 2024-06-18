@@ -101,7 +101,7 @@ const ProductDetailsComponent = () => {
               onChange={onChange}
               size="small"
             />
-            <button>
+            <button style={{ border: "none", background: "transparent" }}>
               <PlusOutlined style={{ color: "#000", fontSize: "20px" }} />
             </button>
           </WrapperQuatityProduct>
@@ -116,7 +116,7 @@ const ProductDetailsComponent = () => {
               border: "none",
               borderRadius: "4px",
             }}
-            textButton={"Chọn mua"}
+            textButton="Chọn mua"
             styleTextButton={{
               color: "#fff",
               fontSize: "15px",
@@ -132,7 +132,7 @@ const ProductDetailsComponent = () => {
               border: "1px solid rgb(13, 92, 182)",
               borderRadius: "4px",
             }}
-            textButton={"Mua trả sau"}
+            textButton="Mua trả sau"
             styleTextButton={{ color: "#rgb(13, 92, 182)", fontSize: "15px" }}
           ></ButtonComponent>
         </div>
